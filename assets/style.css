@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600&display=swap");
+
+*{
+    font-family: "Roboto Slab", Verdana, sans-serif;
+}
+      
+h1{
+    font-weight: 600;
+    color: #8CBC28;
+    background-color: #C4D5E7;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 240px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+body{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFCC8D;
+    background-color: #fff;
+}
+
+button{
+    border: 1px solid white;
+    background-color: #C4D5E7;
+    color: #8CBC28;
+    text-align: center;
+    padding: 6px 9px;
+}
+
+input[type="text"]{
+    padding: 5px;
+    border: 1px solid #FFCC8D;
+    width: 200px;
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.task-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color: grey;
+}
